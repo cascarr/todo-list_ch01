@@ -1,0 +1,80 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    margin: 10em auto;
+    padding: 2em 2em;
+    width: 60%;
+}
+
+.newTask {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.newTask input {
+    width: 70%;
+    border-color: darkgray;
+    border-radius: 80px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 3em;
+}
+
+.newTask input:focus {
+    outline: none;
+    border-color: gray;
+}
+
+.newTask button {
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 800;
+    width: 20%;
+}
+
+.tasks {
+    margin-top: 5em;
+    padding: 1em 0em;
+}
+
+.task {
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1em;
+    width: 100%;
+}
+
+.task span {
+    font-size: 1.5rem;
+    align-self: center;
+    font-weight: 500;
+    padding: .8em .5em;
+    width: 70%;
+}
+
+.task button {
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: .8em 0em;
+    width: 20%;
+}
